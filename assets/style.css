@@ -3,17 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
   }
-
   /* change header h1 to inline and further styled */
   header h1 {
     font-weight: bold;
@@ -22,7 +19,6 @@ body {
     margin: 0;
     display: inline;
   }
-  
   /* remove underline from all a elements*/
   header a {
     text-decoration: none;
@@ -33,7 +29,6 @@ body {
     float: right;
     margin: 7px 0;
   }
-
   /* turn nav inline */
   header nav ul li {
     display: inline;
@@ -44,7 +39,6 @@ body {
     font-weight: lighter;
     font-size: 22px;
   }
-
   footer {
     background: #fce138;
     width: 100%;
@@ -57,17 +51,62 @@ body {
     font-size: 30px;
     margin: 0;
   }
-
   footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
   }
-
   footer a {
     color: #024e76;
   }
-
   section{
-      padding:60px;
+    padding:60px;
+  }
+  .hero{
+    height: 600px;
+      background-image: url(images/hero-bg.jpeg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+  }
+  .hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom:120px;
+    right:140px;
+  }
+
+  .hero-form h3{
+    font-size: 2rem;
+    margin: 0;
+  }
+ 
+  .hero-form p{
+    margin: 5px 0 15px 0;
+  }
+
+  .form-input{
+    border: 1px solid #024e76;
+    display:block;
+    padding: 7px 15px;
+    font-size: 1.2rem;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero-form label{
+    margin: 0 5px;
+  }
+
+  button{
+    background-color: #024e76;
+    color: #fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
   }
