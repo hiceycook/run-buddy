@@ -136,16 +136,14 @@ body {
     font-size: 1rem;
   }
 
-  .intro{
-    text-align: center;
-  }
 .section-title{
   font-size: 3rem;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width:50%;
 }
 .primary-border{
   border-color: #fce138;
@@ -160,10 +158,16 @@ body {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
+}
+
+
+.flex-row{
+display: flex;
+justify-content: center;
 }
 
 .steps { 
-  text-align: center;
   background: #fce138;
 }
 .steps div {
@@ -191,7 +195,7 @@ body {
 }
 
 .trainers{
-  text-align: center;
+
 }
 
 .trainer{
@@ -236,7 +240,7 @@ body {
 
 .contact{
   background-color: #024e76 ;
-  text-align: center;
+  
   padding: 60px 10px 60px 10px;
 }
 
