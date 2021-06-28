@@ -13,4 +13,4 @@ https://hiceycook.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Hicey Austin Cook
 
-eggs
+### ©️2019 Run Buddy, Inc 
