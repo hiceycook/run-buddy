@@ -64,11 +64,22 @@ body {
   }
   .hero{
     height: 600px;
-      background-image: url(images/hero-bg.jpeg);
+      background-image: url(images/flipped-hero-image.jpeg);
       background-size: cover;
       background-position: center;
       position: relative;
   }
+
+.hero-title h2{
+  color:#fce138;
+  font-style: italic;
+}
+
+.hero-title p{
+  color: white;
+  width: 50%;
+}
+
   .hero-form {
     background-color: #fce138;
     padding: 20px;
